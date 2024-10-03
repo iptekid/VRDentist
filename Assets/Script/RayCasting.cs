@@ -45,6 +45,7 @@ public class RayCasting : MonoBehaviour
                 {
                     if (nameofHit == toolsObject[i].itemHName)
                     {
+                        //toolsObject[i].item.GetComponent<MeshRenderer>().materials[0].
                         Debug.Log(toolsObject[i].name);
                         currObject = toolsObject[i];
                         Tools too = new Tools();

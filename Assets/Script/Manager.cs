@@ -15,13 +15,40 @@ public class Manager : MonoBehaviour
     public Tools currObject;
     public int currIndex;
     public bool allowShow;
+    public GameObject middlePoint;
+    public List<AudioClip> startClip;
+    public List<AudioClip> materiClip;
+    public AudioSource audioSource;
+    public GameObject panelCharacter;
+
     void Start()
     {
+        middlePoint.SetActive(false);
+        StartCoroutine("StartBeginning");
+        //CheckAudioLenght();
+    }
+    public void CheckAudioLenght() {
+        foreach (AudioClip audios in startClip) {
+            Debug.Log(audios.length);
+        }
+    
+    }
+    public IEnumerator StartBeginning() {
+        AllowCastMove(false);
+
+        allowShow = false;
+        audioSource.clip = startClip[0];
+        audioSource.Play();
+        yield return new WaitForSeconds(audioSource.clip.length+1);
+        panelCharacter.SetActive(false);
+        audioSource.clip = startClip[1];
+        audioSource.Play();
+        yield return new WaitForSeconds(audioSource.clip.length+1);
+        middlePoint.SetActive(true);
+        Cursor.visible = true;
         ToAllowScan();
-        Cursor.visible = false;
 
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -47,19 +74,28 @@ public class Manager : MonoBehaviour
     }
 
     public void AllowCastMove(bool stat) {
+        audioSource.Stop();
+        
         rayCasting.enabled = stat;
         movement.enabled = stat;
         starterAssetsInputs.cursorInputForLook = stat;
         //starterAssetsInputs.cursorLocked = stat;
         Cursor.visible = !stat;
         starterAssetsInputs.enabled = stat;
+        middlePoint.SetActive(stat);
+
     }
     public void ShowPanels() {
-        
         materiItems.SetActive(true);
         panelItems.SetActive(true);
         toolsObject[currIndex].boxMateri.SetActive(true);
         toolsObject[currIndex].item.SetActive(true);
+        
+        audioSource.clip = materiClip[currIndex];
+        audioSource.Play();
+
+        if (currIndex == 4) {
+        }
     }
 }
 [System.Serializable]
@@ -74,5 +110,11 @@ public class ToolsPanel
 {
     public GameObject item;
     public GameObject boxMateri;
+
+}
+[System.Serializable]
+public class Audioclips
+{
+    //public AudioClip 
 
 }
