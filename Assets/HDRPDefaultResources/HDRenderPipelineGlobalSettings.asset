@@ -175,23 +175,29 @@ MonoBehaviour:
     m_ObsoleteSerializedBakingSets: []
     sceneToBakingSet:
       m_Keys:
+      - e9abc250c79600642a6047ca5fbae049
       - 0939739ac7d4add4da24a4634a59a532
       - 670020d150ee1b34d892464f93fb8d8e
       - 130bfaa52f480b942862263e760b24a9
+      - 6000a62c4f072eb429d7afc6d841289c
       - db674e87fc6f76b4682f01cddf6a8ef3
       - 392bc3b3aa0da97409a5c9785d4ec822
       - 8824438f4385d574786fa4d78da91c1f
       m_Values:
+      - {fileID: 11400000, guid: e3062ce6c61e1b948bf06300130081df, type: 2}
       - {fileID: 11400000, guid: aabbc5e57a9576846b225f7c9ddacab3, type: 2}
       - {fileID: 11400000, guid: d29884896e342974d999335abf774721, type: 2}
       - {fileID: 11400000, guid: 0f2383c1d71e7a94a89f9af1d1669c2e, type: 2}
+      - {fileID: 11400000, guid: b460564f7bf87564ebc1a81e37445548, type: 2}
       - {fileID: 11400000, guid: f64dbbb70e6b5b447a79088dbf752c23, type: 2}
       - {fileID: 11400000, guid: b513fbd9db678ff4e9bd8a3c186bd714, type: 2}
       - {fileID: 11400000, guid: 3ecabf0a76809304cabfba64802fbcbc, type: 2}
     bakingSets:
+    - {fileID: 11400000, guid: e3062ce6c61e1b948bf06300130081df, type: 2}
     - {fileID: 11400000, guid: aabbc5e57a9576846b225f7c9ddacab3, type: 2}
     - {fileID: 11400000, guid: d29884896e342974d999335abf774721, type: 2}
     - {fileID: 11400000, guid: 0f2383c1d71e7a94a89f9af1d1669c2e, type: 2}
+    - {fileID: 11400000, guid: b460564f7bf87564ebc1a81e37445548, type: 2}
     - {fileID: 11400000, guid: f64dbbb70e6b5b447a79088dbf752c23, type: 2}
     - {fileID: 11400000, guid: b513fbd9db678ff4e9bd8a3c186bd714, type: 2}
     - {fileID: 11400000, guid: 3ecabf0a76809304cabfba64802fbcbc, type: 2}
@@ -205,6 +211,8 @@ MonoBehaviour:
       - 74e8ca1232ec1f54a9abebd6e327884e
       - 392bc3b3aa0da97409a5c9785d4ec822
       - 8824438f4385d574786fa4d78da91c1f
+      - 6000a62c4f072eb429d7afc6d841289c
+      - e9abc250c79600642a6047ca5fbae049
       m_Values:
       - m_Center: {x: 0, y: -40.5, z: 0}
         m_Extent: {x: 324, y: 121.5, z: 243}
@@ -214,6 +222,10 @@ MonoBehaviour:
         m_Extent: {x: 40.5, y: 81, z: 81}
       - m_Center: {x: 40.5, y: 0, z: 0}
         m_Extent: {x: 40.5, y: 81, z: 81}
+      - m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 81, y: 81, z: 81}
+      - m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 81, y: 81, z: 81}
       - m_Center: {x: 0, y: 0, z: 0}
         m_Extent: {x: 81, y: 81, z: 81}
       - m_Center: {x: 0, y: 0, z: 0}
@@ -233,7 +245,9 @@ MonoBehaviour:
       - 74e8ca1232ec1f54a9abebd6e327884e
       - 392bc3b3aa0da97409a5c9785d4ec822
       - 8824438f4385d574786fa4d78da91c1f
-      m_Values: 000101010101010101
+      - 6000a62c4f072eb429d7afc6d841289c
+      - e9abc250c79600642a6047ca5fbae049
+      m_Values: 0001010101010101010101
   m_Version: 10
   m_ShaderStrippingSetting:
     m_Version: 0
