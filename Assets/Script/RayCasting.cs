@@ -13,6 +13,11 @@ public class RayCasting : MonoBehaviour
     Camera cam;
     public List<Tools> toolsObject;
     public bool allowScan;
+    public Tools currObject;
+    public Tools emptObject;
+    public int currIndex;
+    public Manager managers;
+
     void Start()
     {
         for (int i = 0; i < toolsObject.Count; i++)
@@ -20,6 +25,8 @@ public class RayCasting : MonoBehaviour
             toolsObject[i].itemHName = toolsObject[i].item.name;
         }
         cam = Camera.main;
+
+            //(typeof(MeshRenderer)) as MeshRenderer[];
     }
 
     // Update is called once per frame
@@ -38,18 +45,36 @@ public class RayCasting : MonoBehaviour
                 {
                     if (nameofHit == toolsObject[i].itemHName)
                     {
+                        //toolsObject[i].item.GetComponent<MeshRenderer>().materials[0].
                         Debug.Log(toolsObject[i].name);
+                        currObject = toolsObject[i];
+                        Tools too = new Tools();
+                        too.item = currObject.item;
+                        too.name = currObject.name;
+                        too.itemHName = currObject.itemHName;
+                        managers.currObject = too;
+                        currIndex = i;
+                        managers.currIndex = currIndex;
+                        break;
+                    }
+                    else {
+                        currObject = emptObject;
+                        managers.currObject = emptObject;
                     }
                 }
             }
         }
 
     }
+    private void OnDisable()
+    {
+        MeshRenderer[] meshs = FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None);
+        foreach (MeshRenderer a in meshs)
+        {
+            a.staticShadowCaster = true;
+            a.staticShadowCaster = true;
+            a.receiveGI = ReceiveGI.LightProbes;
+        }
+    }
 }
 
-[System.Serializable]
-public class Tools {
-    public GameObject item;
-    public string itemHName;
-    public string name;
-}
