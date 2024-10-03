@@ -3,7 +3,132 @@ guid: 04a38f2140e94fe4d81b12c1a33eaf5f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Afiche1
+    second: {fileID: 2100000, guid: 81952fe82f0d59a4f810b226398813c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Afiche2
+    second: {fileID: 2100000, guid: 8cd34c79f1e630c4ba0a3d9e5614fee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Control1.1
+    second: {fileID: 2100000, guid: ecef3bef91c137741a37ca8a8fc3fdbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal
+    second: {fileID: 2100000, guid: 5914ae1ba027fab45a986e56663ae446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IODOS
+    second: {fileID: 2100000, guid: 9faaa41e13b4c1c4c82f19960c0dfd05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luz1
+    second: {fileID: 2100000, guid: 53afd472246f5434ba693beb6935b70d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal32
+    second: {fileID: 2100000, guid: b578b7c5c83c60643bba780317dfb76a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla1
+    second: {fileID: 2100000, guid: 1f8a63e171918f64f84d70328e8f74b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pantalla2
+    second: {fileID: 2100000, guid: 4142672fd56f2264b8de980cf352258b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Persianas
+    second: {fileID: 2100000, guid: c9bda993833017a43a42c540e2607e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso
+    second: {fileID: 2100000, guid: 93c34bb6142d91c43bfaa35bb3c770ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta
+    second: {fileID: 2100000, guid: 4baa14d93e3a91f4fb7fe73b1c6ff97a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: botellas
+    second: {fileID: 2100000, guid: 272be3fdc23dac742b51153528344d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: botones
+    second: {fileID: 2100000, guid: 69a63e068a347144985fe42c64bdbad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cAMARA1
+    second: {fileID: 2100000, guid: 2152f373ecad8d848a4b131c778a0570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable
+    second: {fileID: 2100000, guid: 42c8446c5c49f2d48bf1fcea6358d4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dental1
+    second: {fileID: 2100000, guid: 7ebe48f762b1f244a9a76cc6b3f47809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dental2
+    second: {fileID: 2100000, guid: 415b16e240ef9204ebec2ef81371462b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: liquido
+    second: {fileID: 2100000, guid: 466202cb15e38b447a2dc3a41fb6fe34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal dental1
+    second: {fileID: 2100000, guid: 35ae6b0e0c2aafd4da80497dd765d7d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal dental2
+    second: {fileID: 2100000, guid: 0822752c83f56a04c9f70baaf74946d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal mate
+    second: {fileID: 2100000, guid: 5803066a90d561b489bc2b40c946c186, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: muros
+    second: {fileID: 2100000, guid: d2e8e4ad5511c5b46bf25009d2712a64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastico 1
+    second: {fileID: 2100000, guid: babe42772326e414d8f391d44f3c0a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silla1
+    second: {fileID: 2100000, guid: 7e405edbc50e72d42963f68fd31fa95f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,8 +141,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -90,7 +213,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.001
+    globalScale: 0.1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
