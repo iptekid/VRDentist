@@ -40,88 +40,88 @@ MonoBehaviour:
     m_Values:
     - position: {x: -1, y: -1, z: -1}
       index: 0
-      probeCount: 256
+      probeCount: 640
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 4
+      bricksCount: 10
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: -27, z: -27}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: -1, z: 0}
       index: 4
-      probeCount: 768
+      probeCount: 896
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 12
+      bricksCount: 14
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: -27, z: 0}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: -1}
       index: 2
-      probeCount: 320
+      probeCount: 256
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 5
+      bricksCount: 4
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: -27}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: 0}
       index: 6
-      probeCount: 320
+      probeCount: 256
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 5
+      bricksCount: 4
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: 0}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: -1, z: -1}
       index: 1
-      probeCount: 704
+      probeCount: 1344
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 11
+      bricksCount: 21
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: -27, z: -27}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: -1, z: 0}
       index: 5
-      probeCount: 1920
+      probeCount: 1728
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 30
+      bricksCount: 27
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: -27, z: 0}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: -1}
       index: 3
-      probeCount: 320
+      probeCount: 256
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 5
+      bricksCount: 4
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: -27}
         minSubdiv: 0
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: 0}
       index: 7
-      probeCount: 320
+      probeCount: 256
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 5
+      bricksCount: 4
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: 0}
         minSubdiv: 0
@@ -156,7 +156,7 @@ MonoBehaviour:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: 1228498281
+    - sceneHash: 1174110560
       cellDataAsset:
         m_AssetGUID: c4fedfe8f98ae1d4aabf7bc8c72f1982
         m_StreamableAssetPath: APVStreamingAssets\e3062ce6c61e1b948bf06300130081df\c4fedfe8f98ae1d4aabf7bc8c72f1982.bytes
@@ -211,21 +211,21 @@ MonoBehaviour:
       m_Keys: 0000000004000000020000000600000001000000050000000300000007000000
       m_Values:
       - offset: 0
+        elementCount: 10
+      - offset: 160
+        elementCount: 14
+      - offset: 384
         elementCount: 4
-      - offset: 64
-        elementCount: 12
-      - offset: 256
-        elementCount: 5
-      - offset: 336
-        elementCount: 5
-      - offset: 416
-        elementCount: 11
-      - offset: 592
-        elementCount: 30
-      - offset: 1072
-        elementCount: 5
-      - offset: 1152
-        elementCount: 5
+      - offset: 448
+        elementCount: 4
+      - offset: 512
+        elementCount: 21
+      - offset: 848
+        elementCount: 27
+      - offset: 1280
+        elementCount: 4
+      - offset: 1344
+        elementCount: 4
   cellSupportDataAsset:
     m_AssetGUID: 56b70f02667400e49a1afcd17f55066a
     m_StreamableAssetPath: APVStreamingAssets\e3062ce6c61e1b948bf06300130081df\56b70f02667400e49a1afcd17f55066a.bytes

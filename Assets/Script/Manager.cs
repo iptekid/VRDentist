@@ -23,9 +23,15 @@ public class Manager : MonoBehaviour
 
     void Start()
     {
+        AllowCastMove(false);
+
         middlePoint.SetActive(false);
+
+    }
+    public void StartAlls(){
         StartCoroutine("StartBeginning");
         //CheckAudioLenght();
+
     }
     public void CheckAudioLenght() {
         foreach (AudioClip audios in startClip) {

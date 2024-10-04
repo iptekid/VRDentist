@@ -66,15 +66,15 @@ public class RayCasting : MonoBehaviour
         }
 
     }
-    private void OnDisable()
-    {
-        MeshRenderer[] meshs = FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None);
-        foreach (MeshRenderer a in meshs)
-        {
-            a.staticShadowCaster = true;
-            a.staticShadowCaster = true;
-            a.receiveGI = ReceiveGI.LightProbes;
-        }
-    }
+    //private void OnDisable()
+    //{
+    //    MeshRenderer[] meshs = FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None);
+    //    foreach (MeshRenderer a in meshs)
+    //    {
+    //        a.staticShadowCaster = true;
+    //        a.staticShadowCaster = true;
+    //        a.receiveGI = ReceiveGI.LightProbes;
+    //    }
+    //}
 }
 
