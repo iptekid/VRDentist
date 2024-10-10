@@ -2242,7 +2242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7d1a73cda6b074ab7727488766bf91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skiping: 1
   rayCasting: {fileID: 288425826}
   movement: {fileID: 1288507463}
   starterAssetsInputs: {fileID: 1288507461}

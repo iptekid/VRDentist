@@ -6,6 +6,7 @@ using StarterAssets;
 public class Manager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public bool skiping;
     public RayCasting rayCasting;
     public FirstPersonController movement;
     public StarterAssetsInputs starterAssetsInputs;
@@ -31,10 +32,23 @@ public class Manager : MonoBehaviour
 
         middlePoint.SetActive(false);
 
+        if (skiping)
+        {
+            Invoke("StartAlls", .5f);
+        }
+
+
+
     }
     public void StartAlls(){
         opening.SetActive(false);
-        StartCoroutine("StartBeginning");
+        if (!skiping) { 
+            StartCoroutine("StartBeginning");
+
+        }
+        else { 
+            ToAllowScan();
+        }
         //CheckAudioLenght();
 
     }
@@ -70,8 +84,11 @@ public class Manager : MonoBehaviour
         }
     }
     public void ToAllowScan() {
+        panelCharacter.SetActive(false);
+
         currObject.item = null;
         allowShow = true;
+        Cursor.visible = true;
 
         AllowCastMove(true);
         materiItems.SetActive(false);
