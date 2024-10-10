@@ -2279,6 +2279,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: de2740012a283184fb028cd46a1ee1e7, type: 3}
   audioSource: {fileID: 2102760299}
   panelCharacter: {fileID: 372539068}
+  opening: {fileID: 416641931}
 --- !u!1 &372539068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,18 +2838,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 416641931}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 358073970}
         m_TargetAssemblyTypeName: Manager, Assembly-CSharp
         m_MethodName: StartAlls
@@ -5985,33 +5974,33 @@ MonoBehaviour:
     m_Aspect: 1
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 0.22799021
-    'sh[ 1]': 0.037501156
-    'sh[ 2]': -0.07934741
-    'sh[ 3]': 0.025502678
-    'sh[ 4]': -0.028008835
-    'sh[ 5]': -0.011309497
-    'sh[ 6]': 0.010290801
-    'sh[ 7]': 0.0087243095
-    'sh[ 8]': -0.015514788
-    'sh[ 9]': 0.2049536
-    'sh[10]': 0.034540407
-    'sh[11]': -0.07816052
-    'sh[12]': 0.027748596
-    'sh[13]': -0.025026696
-    'sh[14]': -0.01088987
-    'sh[15]': 0.008439668
-    'sh[16]': 0.005060191
-    'sh[17]': -0.015635723
-    'sh[18]': 0.20505813
-    'sh[19]': 0.033997204
-    'sh[20]': -0.087751254
-    'sh[21]': 0.031142484
-    'sh[22]': -0.025828127
-    'sh[23]': -0.012006545
-    'sh[24]': 0.008043133
-    'sh[25]': 0.004464191
-    'sh[26]': -0.017775819
+    'sh[ 0]': 0.6611743
+    'sh[ 1]': -0.103057206
+    'sh[ 2]': -0.1923675
+    'sh[ 3]': 0.050664507
+    'sh[ 4]': 0.005773971
+    'sh[ 5]': -0.021945093
+    'sh[ 6]': -0.021849688
+    'sh[ 7]': -0.015578024
+    'sh[ 8]': -0.002411368
+    'sh[ 9]': 0.5775007
+    'sh[10]': -0.089190416
+    'sh[11]': -0.1814169
+    'sh[12]': 0.05681418
+    'sh[13]': 0.003978376
+    'sh[14]': -0.017507298
+    'sh[15]': -0.020991871
+    'sh[16]': -0.017180948
+    'sh[17]': -0.008469046
+    'sh[18]': 0.54207045
+    'sh[19]': -0.07862959
+    'sh[20]': -0.18579268
+    'sh[21]': 0.06322176
+    'sh[22]': 0.0012333823
+    'sh[23]': -0.015026554
+    'sh[24]': -0.01966777
+    'sh[25]': -0.014950176
+    'sh[26]': -0.01394596
   m_SHValidForCapturePosition: {x: 3.0265896, y: -3.9928577, z: 1.9279538}
   m_SHValidForSourcePosition: {x: 3.0265896, y: -3.9928577, z: 1.9279538}
   m_HDProbeVersion: 3
@@ -8513,7 +8502,7 @@ MonoBehaviour:
   m_IESPoint: {fileID: 0}
   m_IESSpot: {fileID: 0}
   m_IncludeForRayTracing: 1
-  m_AreaLightShadowCone: 120
+  m_AreaLightShadowCone: 160
   m_UseScreenSpaceShadows: 0
   m_InteractsWithSky: 1
   m_AngularDiameter: 0.5

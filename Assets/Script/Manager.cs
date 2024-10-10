@@ -20,15 +20,20 @@ public class Manager : MonoBehaviour
     public List<AudioClip> materiClip;
     public AudioSource audioSource;
     public GameObject panelCharacter;
+    public GameObject opening;
 
     void Start()
     {
+        panelCharacter.SetActive(true);
+
+        opening.SetActive(true);
         AllowCastMove(false);
 
         middlePoint.SetActive(false);
 
     }
     public void StartAlls(){
+        opening.SetActive(false);
         StartCoroutine("StartBeginning");
         //CheckAudioLenght();
 
