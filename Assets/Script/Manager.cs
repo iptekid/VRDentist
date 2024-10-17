@@ -146,3 +146,13 @@ public class Audioclips
     //public AudioClip 
 
 }
+[System.Serializable]
+public class ParticlesObject
+{
+    public GameObject parents;
+    public GameObject parentsPortal;
+    public GameObject parentsUp;
+    public ParticleSystem portal;
+    public List<ParticleSystem> upP;
+
+}
